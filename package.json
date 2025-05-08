@@ -8,8 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "prepare": "Husky install"
-
+    "prepare": "husky"
   },
   "dependencies": {
     "@react-navigation/native": "^7.1.8",
@@ -45,8 +44,8 @@
     "node": ">=18"
   },
   "husky": {
-  "hooks": {
-    "pre-commit": "yarn lint"
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   }
-}
 }
