@@ -8,8 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "prepare":"Husky install"
-    
+    "prepare": "Husky install"
   },
   "dependencies": {
     "@react-navigation/native": "^7.1.8",
