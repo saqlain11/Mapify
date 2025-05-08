@@ -42,10 +42,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint"
-    }
   }
 }
